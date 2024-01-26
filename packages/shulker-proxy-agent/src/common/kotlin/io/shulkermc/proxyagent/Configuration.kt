@@ -8,6 +8,7 @@ object Configuration {
 
     val PROXY_NAMESPACE = getStringEnv("SHULKER_PROXY_NAMESPACE")
     val PROXY_NAME = getStringEnv("SHULKER_PROXY_NAME")
+    val PROXY_FLEET_NAME = getStringEnv("SHULKER_PROXY_FLEET_NAME")
     val PROXY_TTL_SECONDS = getLongEnv("SHULKER_PROXY_TTL_SECONDS")
 
     val NETWORK_ADMINS: List<UUID> = getOptionalStringEnv("SHULKER_NETWORK_ADMINS")
