@@ -42,7 +42,7 @@ Agones.
 - Website: https://agones.dev/site/
 - Installation guide: https://agones.dev/site/docs/installation/
 
-Shulker requires that you to configure Agones to work properly:
+Shulker requires you to configure Agones to work properly:
 
 - Add your Shulker deployment's namespace (`shulker-system` by default) to
   Agones's list of `GameServer` namespaces. This will make Agones create
