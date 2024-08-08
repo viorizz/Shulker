@@ -24,7 +24,7 @@ A **Shulker Cluster** is composed of three main _entities_:
 
 You'll notice the responsability of launching the actual containers is delegated
 to **[Agones](https://agones.dev/site/)**. Agones is a Kubernetes Controller
-created and maintained by Google whose objective if to _Host, Run and Scale
+created and maintained by Google whose objective is to _Host, Run and Scale
 dedicated game servers on Kubernetes_. Shulker rely on Agones to handle the
 scheduling and resiliency part while handling itself the Agones recipes.
 
